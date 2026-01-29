@@ -2,17 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta-name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Image</title>
     <style>
         body, html {
             margin: 0;
             padding: 0;
-            background: #000; /* optional, looks cleaner */
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #000; /* optional */
         }
         img {
-            width: 100%;
-            height: auto;   /* keeps proportions */
+            max-width: 100%;
+            height: auto;
             display: block;
         }
     </style>
